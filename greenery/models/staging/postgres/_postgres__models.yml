@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_postgres_addresses
+    description: Addresses info
+  - name: stg_postgres_events
+    description: Events info
+  - name: stg_postgres_order_items
+    description: Order Items info
+  - name: stg_postgres_orders
+    description: Orders info
+  - name: stg_postgres_products
+    description: Prodcts info
+  - name: stg_postgres_promos
+    description: Promos info
+  - name: stg_postgres_users
+    description: Users info
