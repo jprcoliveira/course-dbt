@@ -7,4 +7,4 @@ SELECT
 	CREATED_AT,
 	UPDATED_AT,
 	ADDRESS_ID
-FROM {{ source('tutorial', 'users') }}
+FROM {{ source('postgres', 'users') }}

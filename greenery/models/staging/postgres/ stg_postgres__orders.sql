@@ -12,4 +12,4 @@ SELECT
 	ESTIMATED_DELIVERY_AT,
 	DELIVERED_AT,
 	STATUS
-FROM {{ source('tutorial', 'orders') }}
+FROM {{ source('postgres', 'orders') }}

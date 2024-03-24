@@ -3,4 +3,4 @@ SELECT
 	NAME,
   PRICE,
   INVENTORY 
-FROM {{ source('tutorial', 'products') }}
+FROM {{ source('postgres', 'products') }}

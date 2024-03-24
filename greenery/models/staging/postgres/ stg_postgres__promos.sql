@@ -2,4 +2,4 @@ SELECT
 	PROMO_ID,
 	DISCOUNT
   STATUS 
-FROM {{ source('tutorial', 'promos') }}
+FROM {{ source('postgres', 'promos') }}
