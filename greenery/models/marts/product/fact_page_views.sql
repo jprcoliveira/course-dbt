@@ -8,8 +8,7 @@ session_timing_agg as
 (SELECT * FROM {{ ref('int_session_timing_agg')}}),
 
 repeated_users AS
-(SELECT * FROM {{ ref('int_repeated_users')}})
-
+(SELECT * FROM {{ ref('dim_repeated_users')}})
 
 SELECT 
 e.session_id,
